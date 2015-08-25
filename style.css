@@ -1,0 +1,172 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Caesar Dressing';
+  font-weight: bold:
+}
+
+h1 {
+  color: #772244;
+  text-shadow: #222 9px 9px 2px;
+  font-size: 6em;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#my-work {
+  background-image: url(http://www.designbolts.com/wp-content/uploads/2014/03/Yellow-blur-background1.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#about-me {
+  background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Cool_background-4.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  color: #005EB5;
+  text-shadow: #972 7px 3px 4px;
+  font-size: 4em;
+}
+
+#page-top {
+  background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/03/texture-blue-lines-vector-rays-background-hd-wallpaper.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#page-bottom {
+  width: 100%;
+}
+
+#page-bottom ul li {
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+#page-bottom{
+  background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/03/texture-blue-lines-vector-rays-background-hd-wallpaper.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+i {
+  padding-right: 10px;
+}
+
+span {
+  font-size: 1.5em;
+}
+
+.contact-btns .btn {
+  display: block;
+  margin: 150px auto;
+  padding: 10px 10px 10px 10px;
+  color: #FFFFFF;
+  -webkit-border-radius: 10px;
+  opacity: 0.6;
+  background: #F33;
+  -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s;
+}
+
+.contact-btns .btn:hover {
+  -webkit-transform: rotate(360deg);
+  opacity: 1;
+  background: #23A;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+panel ul li a{
+  color: #772244;
+  text-shadow: #222 5px 5px 2px;
+}
+
+#about-me-text{
+  margin-top: 70px;
+  color: #B84;
+  text-shadow: #812 3px 4px 1px;
+  font-size: 2em;
+}
+
+#page-top{
+  height: 500px;
+}
+
+#contact-me{
+  background-image: url(http://wallpaper-download.net/wallpapers/random-wallpapers-tumblr-backgrounds-wallpaper-36963.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-top: 70px;
+}
+
+.navbar{
+  background-color: #005EB5;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  color: #317;
+  text-shadow: #A22 2px 2px 2px;
+}
+
+.navbar-nav{
+  float: right;
+ }
+.navbar-nav li a{
+  color: #317;
+  font-size: 2em;
+  text-shadow: #A22 2px 2px 2px;
+}
+
+#contact-me p{
+  font-size: 2.5em;
+  color: #23A;
+  text-shadow: #F33 3px 3px 1px;
+}
+
+#welcome{
+  padding-top: 60px;
+  font-size: 5em;
+}
+
+#my-image{
+  padding-left: 70px;
+}
+
+.navbar-brand:hover{
+  background-color: #772244;
+  color: #B84;
+}
+
+.nav li a:hover{
+  background-color: #772244;
+  color: #B84;
+}
+
+panel ul li a:hover{
+  color: #B84;
+}
+
