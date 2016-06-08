@@ -6,64 +6,83 @@ html {
 }
 
 body {
-  font-family: 'Caesar Dressing';
-  font-weight: bold:
-}
-
-h1 {
-  color: #772244;
-  text-shadow: #222 9px 9px 2px;
-  font-size: 6em;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
 }
 
 .row {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #my-work {
-  background-image: url(http://www.designbolts.com/wp-content/uploads/2014/03/Yellow-blur-background1.jpg);
+  background-image: url(http://image.tianjimedia.com/uploadImages/2013/249/VW556Q6L1J95.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #about-me {
-  background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Cool_background-4.jpg);
+  background-image: url(http://img.gawkerassets.com/img/191z3rexzwk19png/original.png);
   background-repeat: repeat;
   background-attachment: fixed;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  background-size: cover;
+  padding-bottom: 5%;  
+}
+
+#about-me-text {
+  margin-top: 50px;
+  color: #f27515;
+  text-shadow: black 2px 2px 3px;
+  font-size: 200%;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 1px;
+}
+
+#contact-me {
+  background-image: url(https://mnmlwalls.files.wordpress.com/2015/02/the-tetra.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.tech-logo {
+  display: inline;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1s;
 }
 
 h2 {
-  color: #005EB5;
-  text-shadow: #972 7px 3px 4px;
-  font-size: 4em;
+  color: #f27515;
+  text-shadow: black 7px 3px 4px;
+  font-size: 400%;
 }
 
 #page-top {
-  background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/03/texture-blue-lines-vector-rays-background-hd-wallpaper.jpg);
+  background-image: url(http://wallpapercave.com/wp/F0uViyV.png);
   background-repeat: repeat;
   background-attachment: fixed;
-}
-
-#page-bottom {
-  width: 100%;
+  background-size: cover;
 }
 
 #page-bottom ul li {
   display: inline;
   padding-right: 20px;
   padding-left: 20px;
-  font-size: 2em;
+  font-size: 200%;
 }
 
-#page-bottom{
-  background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/03/texture-blue-lines-vector-rays-background-hd-wallpaper.jpg);
+#page-bottom {
+  background-image: url(http://wallpapercave.com/wp/F0uViyV.png);
   background-repeat: repeat;
   background-attachment: fixed;
+  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 table {
@@ -75,98 +94,165 @@ i {
 }
 
 span {
-  font-size: 1.5em;
+  font-size: 150%;
 }
 
 .contact-btns .btn {
   display: block;
   margin: 150px auto;
   padding: 10px 10px 10px 10px;
-  color: #FFFFFF;
+  color: #FFFFFF;  
   -webkit-border-radius: 10px;
-  opacity: 0.6;
-  background: #F33;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+  background: #b14141;
   -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s;
+  -moz-transition: -moz-transform 2s, opacity 2s, background 2s;
 }
 
 .contact-btns .btn:hover {
   -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
   opacity: 1;
-  background: #23A;
+  background: #f27515;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-panel ul li a{
-  color: #772244;
-  text-shadow: #222 5px 5px 2px;
+.navbar { 
+  background: rgba(177, 65, 65, 0.8);
+  font-family: 'Comfortaa', cursive;
 }
 
-#about-me-text{
-  margin-top: 70px;
-  color: #B84;
-  text-shadow: #812 3px 4px 1px;
-  font-size: 2em;
+.navbar-brand {
+  font-size: 200%;
+  color: #f27515;
+  text-shadow: black 2px 2px 2px;
 }
 
-#page-top{
+.navbar-brand:visited {
+  color: #f27515;
+  background: rgba(177, 65, 65, 0);
+} 
+
+.navbar-brand:hover {
+  background-color: #f27515;
+  color: #b14141;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.nav li a {
+  color: #7077e2;
+  font-size: 200%;
+  text-shadow: black 2px 2px 2px;
+}
+
+.nav li a:visited {
+  color: #7077e2;
+  background: rgba(177, 65, 65, 0);
+}
+
+.nav li a:hover {
+  background:  #7077e2;
+  color: #b14141;
+}
+
+.nav li a:focus {
+  color: #7077e2;
+  background: rgba(177, 65, 65, 0);
+}
+
+panel ul li a {
+  color: #b14141;
+  text-shadow: black 2px 2px 2px;
+  letter-spacing: 1px;
+}
+
+panel ul li a:visited {
+  color: #b14141;
+}
+
+panel ul li a:hover {
+  color: #7077e2;
+}
+
+#page-top {
   height: 500px;
 }
 
-#contact-me{
-  background-image: url(http://wallpaper-download.net/wallpapers/random-wallpapers-tumblr-backgrounds-wallpaper-36963.jpg);
-  background-repeat: repeat;
-  background-attachment: fixed;
-  padding-top: 70px;
+#contact-me p {
+  font-size: 250%;
+  color: #7077e2;
+  text-shadow: black 3px 3px 1px;
 }
 
-.navbar{
-  background-color: #005EB5;
+#welcome {
+  margin-top: 20%;
+  font-size: 500%;
+  color: #b14141;
+  letter-spacing: 2px;
+  text-shadow: black 7px 7px 2px;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1s;
 }
 
-.navbar-brand{
-  font-size: 2em;
-  color: #317;
-  text-shadow: #A22 2px 2px 2px;
+#heading {
+  color: #7077e2;
+  text-shadow: black 9px 9px 2px;
+  letter-spacing: 3px;
+  margin-top: 15%;
+  font-size: 700%;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
 }
 
-.navbar-nav{
-  float: right;
- }
-.navbar-nav li a{
-  color: #317;
-  font-size: 2em;
-  text-shadow: #A22 2px 2px 2px;
+#contact-text {
+  font-family: 'Comfortaa', cursive;
 }
 
-#contact-me p{
-  font-size: 2.5em;
-  color: #23A;
-  text-shadow: #F33 3px 3px 1px;
+.slider {
+  display: none; 
+  position:absolute;
+  font-size: 250%;
+  z-index: 10;
+  height: 100%;
+  background: rgba(177, 65, 65, 0.8);
+  border: 2px solid #7077e2;
+  border-radius: 10px;
 }
 
-#welcome{
-  padding-top: 60px;
-  font-size: 5em;
+.slider a {
+  display: block;
+  color: #7077e2;
+  padding-top: 20%;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Comfortaa', cursive;
 }
 
-#my-image{
-  padding-left: 70px;
+.work-image img{
+  position:relative;
+  border-radius: 10px;
 }
 
-.navbar-brand:hover{
-  background-color: #772244;
-  color: #B84;
+h3 {
+  
+  color: #7077e2;
+  font-size: 300%;
+  text-shadow: black 4px 4px 2px;
+  letter-spacing: 2px;
 }
 
-.nav li a:hover{
-  background-color: #772244;
-  color: #B84;
+#tech {
+  color: #b14141;
+  font-size: 200%;
+  text-shadow: black 3px 3px 2px;
+  letter-spacing: 2px;
 }
-
-panel ul li a:hover{
-  color: #B84;
-}
-
